@@ -1,0 +1,46 @@
+body{
+    font-family: Raleway, Geneva, sans;
+    color: #d40027;
+    background-image: linear-gradient(to right, #ffabcc, #ffedf4);
+}
+
+header{
+    text-shadow: 2px 2px #ff7aae;
+}
+
+h2{
+    text-indent: 40px;
+}
+
+a{
+    color: #d40027;
+}
+
+a:hover{
+    text-decoration: line-through;
+}
+
+a:visited{
+    text-decoration: overline;
+}
+
+.lighterPink{
+    color: #ff6ea6;
+}
+
+.pink-border{
+    border: 1px solid #ff3381;
+}
+
+hr{
+    border-color: #ff3381;
+}
+
+h2, h3, header{
+    background-image: linear-gradient(to left, #ff7aae, #ffd4e4);
+}
+
+aside{
+    font-size: 10px;
+    color: #ff6ea6;
+}
