@@ -1,7 +1,7 @@
 body{
     font-family: Raleway, Geneva, sans;
     color: #d40027;
-    background-image: linear-gradient(to right, #ffabcc, #ffedf4);
+    background-image: linear-gradient(to right, #ffabcc, #fff4d9);
 }
 
 header{
@@ -37,7 +37,7 @@ hr{
 }
 
 h2, h3, header{
-    background-image: linear-gradient(to left, #ff7aae, #ffd4e4);
+    background-image: linear-gradient(to left, #ff7aae, #ffdd8c);
 }
 
 aside{
