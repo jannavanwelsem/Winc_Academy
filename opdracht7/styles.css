@@ -1,0 +1,134 @@
+body{
+    font-family: Raleway, Geneva, sans;
+    color: #d40027;
+    background-image: linear-gradient(to right, #ffabcc, #fff4d9);
+    font-size: 28px;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    padding: 0 2%;
+}
+
+p, span{
+    font-size: 0.7em;
+    line-height: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+header{
+    background-image: linear-gradient(to left, #ff7aae, #ffdd8c);
+    border: #ffdd8c 4px solid;
+    margin: 2%;
+    text-shadow: 2px 2px #ff7aae;
+}
+header h1{
+    max-width: 1024px;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+main{
+    border: #ffdd8c 4px solid;
+    margin: 2%;
+    padding: 1% 0;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+footer{
+    margin: 1%;
+}
+
+.nav_ul{
+    text-align: center;
+}
+.nav_ul li{
+    background-image: linear-gradient(to left, #ff7aae, #ffdd8c);
+    border: #ffdd8c 4px solid;
+    text-align: left;
+    display: inline-block;
+    width: 31%;
+    font-size: 1.2em;
+}
+
+aside{
+    font-size: 0.5em;
+    color: #ff6ea6;
+    padding: 0 0;
+    margin: 0 2%;
+}
+
+main ul{
+    padding-left: 8%;
+}
+
+.section_title{
+    background-image: linear-gradient(to left, #ff7aae, #ffdd8c);
+    padding-left: 5%;
+}
+
+a{
+    color: #d40027;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: line-through;
+}
+a:visited{
+    text-decoration: overline;
+}
+
+form{
+    text-align: center;
+}
+input{
+    display: block;
+    width: 60%;
+    line-height: 1.5em;
+    margin: auto;
+    font-size: 1em;
+    background-color: #ffabcc;
+    border-color:#ffdd8c;
+    color: #d40027;
+}
+.submitBTN{
+    width: 20%;
+    margin: 4% auto;
+}
+
+hr{
+    background-color: #ffdd8c;
+    border: none;
+    height: 4px;
+}
+
+.portrait{
+    max-width: 60%;
+    margin: 0 2%;
+    border-radius: 50%;
+}
+
+.linkGoogle{
+    color: #ff6ea6;
+    text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+   body{
+       background-image: linear-gradient(to left, #ffabcc, #fff4d9);
+       color: #c90c84;
+       font-size: 20px;
+   }
+   p, span{
+        line-height: 1.5em;
+   }
+   input{
+       color: #c90c84;
+   }
+}
