@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Janna's HTML-pagina met Winc Academy</h1>
+    </header>
+    <main>
+        <section>
+            <h2 class="section_title">Contact</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <p><label>naam: <input type="name" name="name" class="inputfield"></label></p>
+                <p><label>e-mail: <input type="email" name="email" class="inputfield"></label></p>
+                <p><label>telefoonnummer: <input type="tel" name="tel" class="inputfield"></label></p>
+                <p><label>geboortedatum: <input type="date" name="date" class="inputfield formBTN"></label></p>
+                <p>gender?
+                    <label><input type="radio" name="gender" value="ja">ja</label>
+                    <label><input type="radio" name="gender" value="nee">nee</label>
+                </p>
+                <p>je favoriete smaak of smaken: <br>
+                    <label><input type="checkbox" name="smaak[]" value="zout">zout</label>
+                    <label><input type="checkbox" name="smaak[]" value="zuur">zuur</label>
+                    <label><input type="checkbox" name="smaak[]" value="zoet">zoet</label>
+                    <label><input type="checkbox" name="smaak[]" value="bitter">bitter</label>
+                    <label><input type="checkbox" name="smaak[]" value="hartig">hartig</label>
+                    <label><input type="checkbox" name="smaak[]" value="pittig">pittig</label>
+                </p>
+                <p><label>je favoriete kleur schort: <input type="color" name="favcolor"></label></p> 
+                <p><label>vertel hier wat meer over jezelf: <textarea name="biography" class="inputfield"></textarea></label></p>
+                <p>upload je laatste recept: </p>
+                <p><label><input type="file" name="file" class="inputfield fileBTN"></label></p>
+                <p><label>link naar je eigen website: <input type="url" name="site" class="inputfield"></label></p> 
+                <p>
+                    <label><button class="inputfield formBTN" type="submit" value="Submit">bevestigen</button></label>
+                    <label><button class="inputfield formBTN" type="reset" value="reset">formulier herstellen</button></label>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul class="nav_ul">
+                <li><a href="index.html">
+                        <h3>Startpagina</h3>
+                    </a></li>
+                <li><a href="about.html">
+                        <h3>Over mij</h3>
+                    </a></li>
+                <li><a href="contact.html">
+                        <h3>Contact</h3>
+                    </a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

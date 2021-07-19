@@ -87,7 +87,7 @@ a:visited{
 form{
     text-align: center;
 }
-input{
+input, textarea, .submitBTN{
     display: block;
     width: 60%;
     line-height: 1.5em;
@@ -128,7 +128,7 @@ hr{
    p, span{
         line-height: 1.5em;
    }
-   input{
+   input, .submitBTN{
        color: #c90c84;
    }
 }
