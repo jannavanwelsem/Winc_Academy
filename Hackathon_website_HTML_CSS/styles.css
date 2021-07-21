@@ -1,0 +1,423 @@
+/* global styling */
+
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 170%;
+    background-color: #63c2ff;
+    background-image: linear-gradient(#ccebff, #63c2ff);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #63c2ff;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+/* basic navigation for most pages */
+
+.basicnav{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    margin: 2% 4%;
+    padding: 11%;
+    font-size: 1.5em;
+    text-shadow: -2px -2px #ededed;
+    line-height: 0.9em;
+}
+
+.currently{
+    background-image: url("img/wolk1.png");
+    filter: opacity(80%);
+    font-family: "Raleway Dots";
+    color: #63c2ff;
+    float: left;
+}
+
+.currentlyA{
+    transform: translate(0, 6%);
+}
+
+.backHome{
+    background-image: url("img/wolk1m.png");
+    filter: drop-shadow(0 0 10px #fff);
+    float: right;
+}
+
+/* home page */
+
+.headerWolk{
+    background-image: url("img/wolk2.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30%;
+    transform: translate(0, 60%);
+}
+
+.h1Home{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-30%, -50%);
+    color: #63c2ff;
+    font-size: 3em;
+    margin: 0;
+    text-shadow: -2px -2px #ededed;
+    font-family: "Raleway Dots";
+    font-weight: 400;
+}
+
+.ul-nav-home{
+    padding: 10%;
+    margin: 0;
+}
+
+.nav{
+    display: inline-block;
+    background-image: url("img/wolk1m.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.9em;
+    text-align: center;
+    filter: drop-shadow(0 0 10px #fff);
+    line-height: 1.6em;
+}
+
+.nav a{
+    text-shadow: -2px -2px #ededed;
+}
+
+.navRandom{
+    width: 24%;
+    padding: 15%;
+    transform: translate(-25%, -155%);
+}
+
+.navArtists{
+    width: 23%;
+    padding: 15%;
+    transform: translate(90%, -70%);
+}
+
+.navArtists h2{
+    width: 114%;
+}
+
+.navSubmit{
+    width: 28%;
+    padding: 9%;
+    bottom: 38%;
+    transform: translate(-120%, -30%);
+}
+
+.navSubmit h2{
+    width: 110%;
+}
+
+.navAbout{
+    width: 12%;
+    padding: 5%;
+    transform: translate(120%, -110%);
+}
+
+.credits{
+    display: block;
+    background-image: url("img/wolk2.png");
+    background-size: 91%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32%;
+    margin: auto;
+    padding: 3%;
+    transform: translate(0%, -180%);
+}
+
+.credits h3{
+    text-shadow: -2px -2px #ededed;
+    color: #63c2ff;
+}
+
+/* all, most? pages */
+
+.theme{
+    display: block;
+    margin: 15% auto;
+    background-color: #e3f4ff;
+    background-image: linear-gradient(#b3e1ff, #ccebff);
+    color: #009bff;
+    font-size: 1.5em;
+}
+
+/* random + about page */
+
+.themeRandomAbout{
+    padding: 9%;
+    padding-top: 40%;
+    width: 50%;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+/* about page */
+
+.smallP{
+    font-size: 0.85em;
+    line-height: 1.3em;
+    margin-top: 25%;
+}
+
+/* artist list page */
+
+.artists{
+    padding-top: 35%;
+    padding-bottom: 5%;
+    width: 70%;
+    font-size: 1.7em;
+}
+
+.artists p{
+    color: #009bff;
+    display: inline-block;
+    line-height: 1.4em;
+    background: #ccebff;
+    filter: drop-shadow(0 0 10px #fff);
+}
+
+.artists a{
+    color: #009bff;
+}
+
+/* artist page */
+
+.artistpagebody{
+    background-color: #ccebff;
+    background-image: linear-gradient(to top, #ccebff, #63c2ff);
+}
+
+.artistPage{
+    background-color: #fff;
+    background-image: linear-gradient(#ccebff, #fff);
+    padding: 5%;
+    width: 80%;
+    line-height: 1.4em;
+}
+
+.textContainer{
+    font-size: 0.65em;
+    padding: 1%;
+    color: #004673;
+}
+
+.artistPage img{
+    width: 100%;
+}
+
+/* submission page */
+
+form{
+    width: 75%;
+    padding: 2%;
+    padding-top: 35%;
+    padding-bottom: 5%;
+}
+
+form p, form label, form input, form textarea{
+    font-family: inherit;
+    display: block;
+    width: 91%;
+    text-align: left;
+    padding: 1%
+}
+
+form p{
+    padding: 4%;
+}
+
+form label{
+    margin: 6% auto 2% auto;
+}
+
+form textarea{
+    max-width: 91%;
+    min-width: 91%;
+    min-height: 1.6em;
+}
+
+form input, form textarea{
+    background-image: linear-gradient(#def2ff, #d1edff);
+    border: 3px solid #e8f6ff;
+    box-shadow: 10px 10px 4px #c4e8ff inset;
+    font-size: 1.5em;
+    color: #ff7300;
+    margin: 1% auto;
+    line-height: 1.6em;
+}
+
+form button{
+    font-size: 1em;
+    background-image: linear-gradient(#def2ff, #d1edff);
+    border: 3px solid #009bff;
+    border-radius: 10%;
+    color: #009bff;
+    display: inline-block;
+    width: 40%;
+    margin: 4%;
+}
+
+.optional{
+    font-size: 0.7em;
+    text-align: right;
+    margin: 1% 0 4% 0;
+}
+
+
+/* media queries */
+
+@media (min-width: 1024px){
+    
+    body{
+        font-size: 100%;
+    }
+
+    /* home page */
+    .nav{
+        background-size: 40%;
+        position: absolute;
+        width: 20%;
+    }
+    
+    .headerWolk{
+        background-size: 50%;
+        transform: translate(0, -10%);
+    }
+    .h1Home{
+        transform: translate(-7%, -50%);
+        font-size: 3.5em;
+    }
+
+    .navRandom{
+        transform: translate(-120%, -210%);
+    }
+
+    .navArtists{
+        transform: translate(20%, -210%);
+    }
+    .navArtists h2{
+        width: 80%;
+        transform: translate(15%, 0%);
+    }
+
+    .navSubmit{
+        transform: translate(-140%, 80%);
+    }
+    .navSubmit h2{
+        width: 80%;
+        transform: translate(12%, 0%);
+    }
+
+    .navAbout{
+        transform: translate(10%, -250%);
+        z-index: 1;
+    }
+    .navAbout h2{
+        display: inline;
+    }
+    
+    .credits{
+        background-size: 40%;
+        padding: 5%;
+        transform: translate(80%, -265%);
+    }
+    .credits h3{
+        width: 30%;
+        transform: translate(110%, 0);
+    }
+
+    /* basic navigation most pages */
+    .basicnav{
+        background-size: 80%;
+        width: 10%;
+        margin: 2%;
+        padding: 5%;
+        font-size: 1.4em;
+        line-height: 1.1em;
+    }
+    
+    .currentlyA{
+        transform: translate(0, 6%);
+    }
+
+    /* all, most? pages */
+    .theme{
+        margin: 7.5% auto;
+        font-size: 1.2em;
+    }
+
+    /* random + about page */
+    .themeRandomAbout{
+        padding: 6%;
+        width: 30%;
+    }
+
+    /* artist list page */
+    .artists{
+        padding: 2%;
+        width: 50%;
+        font-size: 1.2em;
+    }
+    .artists p{
+        line-height: 1.2em;
+    }
+    .columns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+    /* artist page */
+
+    .artistpagebody{
+        background-image: linear-gradient(#ccebff, #63c2ff);
+    }
+    .artistPage{
+        padding: 2% 2%;
+        width: 50%;
+        font-size: 1.5em;
+        line-height: 1.4em;
+    }
+
+    /* submission page */
+    form{
+        width: 30%;
+        padding: 5%;
+        padding-top: 3.5%;
+        margin: 7.5%;
+    }
+
+    form label{
+        font-size: 0.9em;
+    }
+
+    form input, form textarea, form button{
+        font-size: 0.9em;
+    }
+
+    .optional{
+        font-size: 0.8em;
+    }
+
+}
+
+@media (min-width: 768px){
+
+}
+
+/* mobile: 320px */

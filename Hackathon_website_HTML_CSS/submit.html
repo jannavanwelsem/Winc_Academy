@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Suggesties</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway+Dots|Raleway">
+    </head>
+    <body>
+        <header>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="index.html"><h3 class="basicnav backHome">terug naar start</h3></a></li>
+                    <li><h2 class="basicnav currently">stuur me een suggestie</h2></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form class="theme">
+                <p>Is er een kunstenaar waarvan je vindt dat die in mijn lijst had moeten staan? Laat het me hieronder weten!</p>
+                <div>
+                    <label for="kunstenaar">naam kunstenaar of collectief </label>
+                    <input type="text" name="kunstenaar" id="kunstenaar">
+                </div>
+                <div>
+                    <label for="website">hun website* </label>
+                    <input type="url" name="website" id="website">
+                </div>
+                <div>
+                    <label for="werk">je favoriete werk* </label>
+                    <input type="text" name="werk" id="werk">
+                </div>
+                <div>
+                    <label for="naam">jouw naam* </label>
+                    <input type="text" name="naam" id="naam">
+                </div>
+                <div>
+                    <label for="email">je e-mailadres* </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="notes">opmerkingen*</label>
+                    <textarea name="notes" id="notes"></textarea>
+                </div>
+                <p class="optional">*optioneel</p>
+                <div>
+                    <button type="submit" vaule="submit">opsturen</button>
+                    <button type="reset" value="reset">reset</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
