@@ -23,9 +23,9 @@ const greet = age => {
     }
 }
 
-console.log(greet(18));
-console.log(greet(17));
-console.log(greet(999));
+console.log(greet(18)); // Hello there
+console.log(greet(17)); // Hey kiddo
+console.log(greet(999)); // Hello there
 
 
 console.log('----exercise 2.1----');
@@ -39,8 +39,8 @@ const calcPriceIncl = (priceExcl, VATPercentage) => {
     return priceIncl;
 }
 
-console.log('the price including VAT is: ' + calcPriceIncl(1000, 21));
-console.log('the price including VAT is: ' + calcPriceIncl(20, 9));
+console.log('the price including VAT is: ' + calcPriceIncl(1000, 21)); // 1210
+console.log('the price including VAT is: ' + calcPriceIncl(20, 9)); // 21.8
 
 
 console.log('----exercise 2.2----');
@@ -59,5 +59,5 @@ const calcPriceExclAndVAT = (priceIncl, VATPercentage) => {
     return outcome;
 }
 
-console.log(calcPriceExclAndVAT(21,8, 9));
-console.log(calcPriceExclAndVAT(1210, 21));
+console.log(calcPriceExclAndVAT(21,8, 9)); // ['19.44', '1.56']
+console.log(calcPriceExclAndVAT(1210, 21)); // ['1000.00', '210.00']
