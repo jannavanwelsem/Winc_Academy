@@ -1,6 +1,6 @@
 let colors = ['yellow', 'blue', 'red', 'orange'];
-let color = 0;
 
+let color = 0;
 while (color < colors.length) {
     console.log(`the color: ${colors[color]}`);
     color++;
@@ -20,7 +20,7 @@ console.log(`forEach has looped through all the colors`);
 
 /*
 Hoeveel regels neemt mijn for loop en mijn while loop in beslag?
-    Als ik het netjes formatteer, neemt mijn while loop 4 regels in beslag, en de for loop 3.
+    Als ik het netjes formatteer, neemt mijn while loop 5 regels in beslag, en de for loop 3.
 
 Hoeveel regels neemt mijn forEach method in beslag?
     Slechts 1 regel.
